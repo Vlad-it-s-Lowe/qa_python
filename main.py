@@ -29,7 +29,7 @@ class BooksCollector:
                     books_with_specific_genre.append(name)
         return books_with_specific_genre
 
-    # получаем словарь books_genre
+    # получаем словарь books_genre 
     def get_books_genre(self):
         return self.books_genre
 
